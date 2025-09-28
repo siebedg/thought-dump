@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "ThoughtDump",
+    "slug": "thoughtdump",
+    "scheme": "thoughtdump",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app records short voice notes."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "RECORD_AUDIO"
+      ],
+      "package": "com.jojoh.thoughtdump"
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": ""
+    }
+  }
+}

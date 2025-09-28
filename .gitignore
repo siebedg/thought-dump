@@ -1,0 +1,21 @@
+# Node
+node_modules/
+*.log
+
+# Expo / React Native
+.expo/
+android/.gradle/
+android/app/build/
+ios/build/
+ios/Pods/
+*.keystore
+
+# Env files
+.env
+.env.local
+.env.production
+.env.example
+
+# VSCode / OS
+.vscode/
+.DS_Store
